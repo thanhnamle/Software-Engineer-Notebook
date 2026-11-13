@@ -1,0 +1,15 @@
+# --- Obsidian: file thay đổi liên tục theo thao tác UI → gây conflict khi sync nhiều máy ---
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# --- Smart Connections: embeddings tự sinh lại được, dung lượng lớn ---
+.smart-env/
+
+# --- Thùng rác của Obsidian ---
+.trash/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
