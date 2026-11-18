@@ -1,0 +1,48 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Code-Smells-and-Refactoring",
+      "path": "02-Architecture-Design/01-Mindset/Code-Smells-and-Refactoring.md"
+    },
+    {
+      "basename": "POC-01-Ordering-Clean-Architecture",
+      "path": "05-Projects-POCs/POC-01-Ordering-Clean-Architecture.md"
+    },
+    {
+      "basename": "DDD-Tactical-Patterns",
+      "path": "02-Architecture-Design/03-Patterns/DDD/DDD-Tactical-Patterns.md"
+    },
+    {
+      "basename": "Clean-Architecture-in-DotNet",
+      "path": "02-Architecture-Design/04-Styles/Clean-Architecture-in-DotNet.md"
+    },
+    {
+      "basename": "mini-calendar-default",
+      "path": "TaskNotes/Views/mini-calendar-default.base"
+    },
+    {
+      "basename": "Start Here",
+      "path": "TaskNotes/Start Here.md"
+    },
+    {
+      "basename": "Java-to-DotNet-Mental-Map",
+      "path": "01-Languages-Runtimes/DotNet-CSharp/Java-to-DotNet-Mental-Map.md"
+    },
+    {
+      "basename": "calendar-default",
+      "path": "TaskNotes/Views/calendar-default.base"
+    },
+    {
+      "basename": "kanban-default",
+      "path": "TaskNotes/Views/kanban-default.base"
+    },
+    {
+      "basename": "agenda-default",
+      "path": "TaskNotes/Views/agenda-default.base"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}

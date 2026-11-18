@@ -65,17 +65,35 @@ flowchart LR
 - [ ] [[Dapper-for-Read-Side]]
 - 🎯 **Output:** POC-01 có DB SQL Server (Docker) + migrations.
 
-## Phase 4 — Architecture (trọng tâm)
-- [x] [[Clean-Architecture-in-DotNet]]
-- [x] [[CQRS-and-MediatR-Pattern]]
-- [ ] [[DDD-Tactical-Patterns]] — Aggregate, Value Object, Domain Service
-- [ ] [[Domain-Events-and-Outbox]]
-- [ ] [[Result-Pattern-vs-Exceptions]]
-- [ ] [[Decorator-Pattern-with-Scrutor]] — CQRS không cần MediatR
-- [ ] Specification pattern, Repository (khi nào cần / không cần)
-- [ ] [[Vertical-Slice-Architecture]] — so sánh với Clean Architecture
-- [ ] [[SOLID-Principles]] — chỉ ghi phần áp dụng vào .NET
-- 🎯 **Output:** POC-01 hoàn chỉnh 4 tầng, 3 behaviors, architecture tests xanh.
+## Phase 4 — Architecture & Design (trọng tâm)
+> [!tip] Đọc theo thứ tự trong [[Architecture-Design-MOC]]. 📄 = đã có note · ☐ = tick khi đã đọc **và** áp dụng vào POC.
+
+**4a. Tư duy & nguyên tắc** (đọc trước, song song Phase 1–3)
+- [ ] 📄 [[Design-Thinking-Process]] — quy trình tư duy từ requirement đến code
+- [ ] 📄 [[Coupling-and-Cohesion]] — thước đo của mọi thiết kế
+- [ ] 📄 [[SOLID-Principles]]
+- [ ] 📄 [[Core-Design-Principles]] — DRY, KISS, YAGNI, LoD, Tell Don't Ask…
+- [ ] 📄 [[Code-Smells-and-Refactoring]]
+
+**4b. Design patterns (GoF)** — học theo nhu cầu, tra bằng bảng "Vấn đề → Pattern" trong MOC
+- [ ] 📄 [[Creational-Patterns]] · 📄 [[Structural-Patterns]] · 📄 [[Behavioral-Patterns]]
+
+**4c. Enterprise & DDD patterns**
+- [ ] 📄 [[DDD-Tactical-Patterns]] — Entity, Value Object, Aggregate, Domain Service
+- [ ] 📄 [[Repository-UnitOfWork-Specification]]
+- [ ] 📄 [[CQRS-and-MediatR-Pattern]]
+- [ ] 📄 [[Result-Pattern-vs-Exceptions]]
+- [ ] 📄 [[Domain-Events-and-Outbox]]
+
+**4d. Kiến trúc tổng thể**
+- [ ] 📄 [[Clean-Architecture-in-DotNet]]
+- [ ] 📄 [[Vertical-Slice-Architecture]]
+- [ ] 📄 [[Monolithic-Architecture]]
+- [ ] 📄 [[Modular-Monolith]]
+- [ ] 📄 [[Microservices-Architecture]] — đối chiếu Spring Cloud ↔ .NET
+- [ ] 📄 [[Architecture-Styles-Comparison]]
+
+- 🎯 **Output:** POC-01 hoàn chỉnh 4 tầng, 3 behaviors, architecture tests xanh, có Outbox cho email.
 
 ## Phase 5 — Testing
 - [ ] [[Testing-in-DotNet]] — xUnit, NSubstitute, Shouldly

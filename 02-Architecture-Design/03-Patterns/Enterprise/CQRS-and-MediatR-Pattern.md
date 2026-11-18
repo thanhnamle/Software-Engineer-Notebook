@@ -503,6 +503,9 @@ public sealed class UnitOfWorkBehavior<TRequest, TResponse>(IApplicationDbContex
 }
 ```
 
+> [!tip] Nếu chuyển sang Result pattern
+> Khi handler trả `Result` thay vì ném exception: `UnitOfWorkBehavior` phải **bỏ qua `SaveChanges` khi Result thất bại**, và `ValidationBehavior` nên trả `Result` lỗi thay vì throw. Xem code ở [[Result-Pattern-vs-Exceptions]].
+
 > [!note] `SaveChangesAsync()` tự nó đã là một transaction
 > EF Core bọc toàn bộ INSERT/UPDATE/DELETE của **một lần** `SaveChanges` trong 1 transaction. Vì vậy với mô hình
 > "handler chỉ sửa entity, behavior SaveChanges 1 lần" thì **không cần** mở transaction thủ công.
@@ -862,8 +865,11 @@ public class CreateOrderHandler implements CommandHandler<CreateOrderCommand, UU
 ---
 
 ## 7. Liên kết & Tham khảo
+- **Bản đồ:** [[Architecture-Design-MOC]]
 - **Note liên quan:** [[Clean-Architecture-in-DotNet]] · [[Java-to-DotNet-Mental-Map]] · [[POC-01-Ordering-Clean-Architecture]]
-- **Đọc tiếp (chưa viết):** [[Domain-Events-and-Outbox]] · [[Result-Pattern-vs-Exceptions]] · [[Decorator-Pattern-with-Scrutor]] · [[EF-Core-Transactions-and-Concurrency]] · [[Dapper-for-Read-Side]]
+- **Pattern nền tảng:** [[Behavioral-Patterns#Mediator]] · [[Behavioral-Patterns#Command]] · [[Structural-Patterns#Decorator]] (CQRS không cần MediatR) · [[Behavioral-Patterns#Chain of Responsibility]] (pipeline)
+- **Đọc tiếp:** [[Domain-Events-and-Outbox]] · [[Result-Pattern-vs-Exceptions]] · [[Repository-UnitOfWork-Specification]] · [[Vertical-Slice-Architecture]]
+- **Chưa viết:** [[EF-Core-Transactions-and-Concurrency]] · [[Dapper-for-Read-Side]]
 - **Nguồn:**
   - Martin Fowler — *CQRS* (bliki)
   - Microsoft — *.NET Microservices: Architecture for Containerized .NET Applications*, chương DDD/CQRS

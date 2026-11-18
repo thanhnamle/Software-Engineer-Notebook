@@ -17,7 +17,11 @@ updated: 2026-11-13
 | Khu vực | Note gốc |
 | --- | --- |
 | 🟣 .NET / C# | [[Java-to-DotNet-Mental-Map]] |
-| 🏛️ Kiến trúc | [[Clean-Architecture-in-DotNet]] · [[CQRS-and-MediatR-Pattern]] |
+| 🏛️ Kiến trúc & Design | **[[Architecture-Design-MOC]]** (lộ trình đọc + bảng tra "vấn đề → pattern") |
+| 🧠 Tư duy thiết kế | [[Design-Thinking-Process]] · [[Code-Smells-and-Refactoring]] |
+| 📐 Nguyên tắc | [[Coupling-and-Cohesion]] · [[SOLID-Principles]] · [[Core-Design-Principles]] |
+| 🧩 Patterns | [[Behavioral-Patterns]] · [[Structural-Patterns]] · [[Creational-Patterns]] · [[DDD-Tactical-Patterns]] |
+| 🏗️ Kiến trúc | [[Clean-Architecture-in-DotNet]] · [[CQRS-and-MediatR-Pattern]] · [[Monolithic-Architecture]] · [[Modular-Monolith]] · [[Microservices-Architecture]] · [[Architecture-Styles-Comparison]] |
 | 🧪 Thực hành | [[POC-01-Ordering-Clean-Architecture]] |
 
 ---

@@ -880,8 +880,11 @@ class LayerTest {
 ---
 
 ## 8. Liên kết & Tham khảo
+- **Bản đồ:** [[Architecture-Design-MOC]]
 - **Note liên quan:** [[CQRS-and-MediatR-Pattern]] · [[Java-to-DotNet-Mental-Map]] · [[POC-01-Ordering-Clean-Architecture]]
-- **Đọc tiếp (chưa viết):** [[DDD-Tactical-Patterns]] · [[Vertical-Slice-Architecture]] · [[Dependency-Injection-DotNet-vs-Spring]] · [[EF-Core-vs-JPA-Hibernate]] · [[SOLID-Principles]] · [[Domain-Events-and-Outbox]]
+- **Nền tảng:** [[SOLID-Principles#Dependency Inversion Principle (DIP)]] · [[Coupling-and-Cohesion]]
+- **Đọc tiếp:** [[DDD-Tactical-Patterns]] · [[Repository-UnitOfWork-Specification]] · [[Domain-Events-and-Outbox]] · [[Vertical-Slice-Architecture]] · [[Modular-Monolith]] · [[Architecture-Styles-Comparison]]
+- **Chưa viết:** [[Dependency-Injection-DotNet-vs-Spring]] · [[EF-Core-vs-JPA-Hibernate]]
 - **Nguồn:**
   - Robert C. Martin — *Clean Architecture* (2017) & bài blog gốc 2012
   - Microsoft Learn — *Common web application architectures*

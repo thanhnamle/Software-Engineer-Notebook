@@ -508,5 +508,6 @@
     "timeblockEventTitleTemplate": "{{title}}"
   },
   "enableDebugLogging": false,
-  "lastSeenVersion": "4.18.1"
+  "lastSeenVersion": "4.18.1",
+  "lastNotifiedReleaseVersion": "5.0.0"
 }
